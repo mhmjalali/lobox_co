@@ -16,15 +16,40 @@
     &:focus-visible
         outline: none
 
-.select-item
+.select-items
     width: 300px
     font-size: 18px
     border: 2px solid #e1e1e1
     border-radius: 15px
+    padding: 10px 10px
+    margin-top: 10px
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+    li
+        list-style-type: none
+        padding: 10px 10px
+        border-radius: 5px
+        cursor: pointer
+        &:hover
+            background: #96a5e638
+
+li.selected
+    background:  #96a5e638
+
+.selected-items
+    width: 300px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    
+.selected-item
+    background: #96a5e638
     padding: 10px 15px
-li
-    list-style-type: none
-    padding: 7px 5px
-    border-radius: 5px
-    &:hover
-        background: rgb(204, 209, 233)
+    border-radius: 10px
+    margin: 5px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    .close 
+        margin-left: 5px
+        cursor: pointer
+        border-left: 3px solid rgb(150 165 230)
