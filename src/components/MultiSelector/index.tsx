@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import SelectBox from './SelectBox';
 import SelectItems from './SelectItems';
 import SelectedItems from './SelectedItems';
-import "../../styles/multiselect-style.sass";
 
 const typeList: string[] = ['Education', 'Yeeeah, science!', 'Art', 'Sport', 'Games', 'Health'];
 

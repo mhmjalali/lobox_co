@@ -1,5 +1,6 @@
 import CheckIcon from '@mui/icons-material/Check';
 import React, { Dispatch, FC, RefObject, SetStateAction } from 'react';
+import "../../../styles/multi-select/selectItems-style.sass";
 
 interface SelectItemsxProps {
     selectItemsRef: RefObject<HTMLDivElement | null>;

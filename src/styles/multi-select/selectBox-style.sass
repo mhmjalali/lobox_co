@@ -1,0 +1,27 @@
+.select-box 
+    width: 300px
+    border: 2px solid rgb(150, 165, 230)
+    box-shadow: rgb(150, 165, 230, 0.9) 0px 4px 12px
+    border-radius: 15px
+    padding: 0px 15px
+    cursor: pointer
+    display: flex
+    align-items: center
+    justify-content: space-between
+    
+.select-input
+    min-height: 50px
+    cursor: pointer
+    border: none
+    font-size: 20px
+    background: transparent
+    &:focus-visible
+        outline: none
+
+.expand-less
+    transform: rotate(-90deg)
+    transition: all 0.2s ease
+
+.expand-more
+    transform: rotate(0deg)
+    transition: all 0.2s ease

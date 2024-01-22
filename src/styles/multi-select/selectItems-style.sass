@@ -1,0 +1,37 @@
+.select-items
+    width: 300px
+    font-size: 18px
+    border: 2px solid #e1e1e1
+    border-radius: 15px
+    padding: 10px 10px
+    margin-top: 10px
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+    li
+        list-style-type: none
+        padding: 10px 10px
+        border-radius: 5px
+        cursor: pointer
+        display: flex
+        justify-content: space-between
+        margin: 5px 0px
+        &:hover
+            background: #a8ddcf4f
+
+li.selected
+    background:  #a8ddcf4f
+
+.add-item-text 
+    font-size: 14px
+    font-weight: 900
+    color: #b5b5b5
+    padding: 5px 0
+    text-align: center
+    span 
+        color: #d75555
+        padding: 0px 5px
+
+.show
+    transform: scaleY(1)
+.hide
+    transform: scaleY(0)
+    transform-origin: top

@@ -1,5 +1,6 @@
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import React, { Dispatch, FC, RefObject, SetStateAction, useState } from 'react';
+import "../../../styles/multi-select/selectBox-style.sass";
 
 interface SelectBoxProps {
     selectInputRef: RefObject<HTMLDivElement | null>;

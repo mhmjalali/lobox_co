@@ -1,5 +1,6 @@
 import ClearIcon from '@mui/icons-material/Clear';
 import React, { Dispatch, FC, RefObject, SetStateAction } from 'react';
+import "../../../styles/multi-select/selectedItems-style.sass";
 
 interface SelectedItemsxProps {
     selectedItemRef: RefObject<HTMLDivElement | null>;
